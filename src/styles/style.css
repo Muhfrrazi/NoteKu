@@ -27,6 +27,7 @@ textarea::placeholder {
   font-weight: bold;
 }
 .note-app__header {
+  z-index: 99;
   position: sticky;
   top: 0;
   display: flex;
