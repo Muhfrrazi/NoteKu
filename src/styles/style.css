@@ -61,6 +61,7 @@ textarea::placeholder {
 }
 
 .inputSearch {
+  width: 300px;
   border: 1px solid #aaa;
   padding: 0;
   margin: 0;
@@ -69,6 +70,7 @@ textarea::placeholder {
 }
 .svg-inline--fa {
   margin-top: 20px;
+  cursor: pointer;
 }
 .note-app__body {
   max-width: 1000px;
@@ -221,17 +223,20 @@ textarea::placeholder {
   color: #b00020;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 320px) {
   .note-app__header h1 {
     margin: 8px 0;
     flex: 1;
     font-size: 1.75rem;
   }
+  .inputSearch {
+    width: 250px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
   .notes-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -242,11 +247,5 @@ textarea::placeholder {
 
   .note-search input {
     min-width: 400px;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .notes-list {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
