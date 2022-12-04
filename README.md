@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Submission-Dicoding-Belajar-Machine-Learning-untuk-Pemula
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Buatlah aplikasi web menggunakan React yang dapat menambahkan dan menghapus catatan. Agar lebih jelasnya, berikut 3 kriteria utama pada “Aplikasi Catatan Pribadi” yang harus Anda buat.
 
-## Available Scripts
+## Kriteria Utama 1: Mampu Menampilkan Daftar Catatan
+1. Aplikasi harus mampu menampilkan daftar catatan dengan data awal (initial data) yang telah kami sediakan.
+2. Memanfaatkan state component untuk menyimpan data catatan.
+3. Menggunakan teknik array map untuk menampilkan daftar catatan.
 
-In the project directory, you can run:
 
-### `npm start`
+## Kriteria Utama 2: Mampu Menambahkan Catatan
+1. Aplikasi harus mampu menambahkan data catatan baru.
+2. Memanfaatkan controlled component dalam membuat form input.
+3. Data catatan disimpan cukup pada memori saja (akan hilang jika browser di-refresh).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Kriteria Utama 3: Mampu Menghapus Catatan
+1. Aplikasi harus menyediakan tombol hapus untuk menghapus data catatan yang disimpan.
+2. Terdapat conditional rendering di mana bila tidak terdapat data catatan, maka UI menampilkan pesan “Tidak ada catatan” atau pesan apa pun yang mengindikasikan data catatan kosong.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cara Penggunaan:
+--
+#### Project setup
+```
+npm install
+```
 
-### `npm test`
+#### Compiles and hot-reloads for development
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/90432021/205500360-14eec390-af58-4ce0-a639-5bce0fcf90e6.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tampilan website
+![image](https://user-images.githubusercontent.com/90432021/205500364-0e805439-f0dc-46f2-9349-991927afdaea.png)
