@@ -28,7 +28,7 @@ npm install
 ```
 npm start
 ```
-
+Rating yang didapat
 ![image](https://user-images.githubusercontent.com/90432021/205500360-14eec390-af58-4ce0-a639-5bce0fcf90e6.png)
 
 Tampilan website
