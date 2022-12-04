@@ -67,7 +67,7 @@ class NotesInput extends React.Component {
       this.props.addNote(this.state);
       this.onResetEventHandler(event);
       Swal.fire({
-        icon: "warning",
+        icon: "info",
         title: "Catatan berhasil ditambahkan",
       });
     }
