@@ -65,6 +65,11 @@ class NotesInput extends React.Component {
       });
     } else {
       this.props.addNote(this.state);
+      this.onResetEventHandler(event);
+      Swal.fire({
+        icon: "warning",
+        title: "Catatan berhasil ditambahkan",
+      });
     }
   }
 
